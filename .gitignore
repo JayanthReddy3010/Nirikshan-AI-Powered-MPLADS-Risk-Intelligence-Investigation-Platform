@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Locally trained ML artifacts
+backend/app/ml/artifacts/*.joblib
+backend/app/ml/artifacts/model_metadata.json
